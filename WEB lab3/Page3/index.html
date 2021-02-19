@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;apikey=d429f85a-039c-4dc3-8a24-4bfd38a8efef" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'><link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+
+<head>
+ 
+</head>
+<section class="page"><section>
+  <nav id="nav-bar">
+      <input type="checkbox" name ="" id ="toggle">
+      <div class="header">
+          <div class="navar">
+              <label for="toggle">&#9776</label>
+              
+          </div>
+          
+          <div id="menu" onclick="redirect1(this)"  onmouseout="small(this)" >Menu</a></div>
+          <div id="about_me" onclick="redirect2(this)" onmouseout="small(this)">About me</div>
+          <div id="contact_me" onclick="redirect(this)"  onmouseout="small(this)" >Contact me</div>
+         
+         
+          <div class="logo">
+  
+              <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFA_Md3QUvvuw49Zk4-VHkkwkAXtrUvrPwHg&usqp=CAU" alt="" width="75" height="57">
+          </div>
+      </div>
+  </nav>
+<div class="parallax img-05">
+  
+  <div class="frame-02">
+    <div class="contact-form">
+      <form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+    </div>
+    <div id="maps">
+      <div id="map_info">
+        <div id="map" style="width:400px;height:500px;">
+        </div>
+      </div>
+    </div> 
+</div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
